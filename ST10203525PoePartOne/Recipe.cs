@@ -229,7 +229,7 @@ namespace ST10203525PoePartOne
 				Console.WriteLine($"\nScaled Recipe (Factor: {scaleFactor}):");
 				DisplayRecipe();
 
-				Console.ForegroundColor = ConsoleColor.Cyan;
+				Console.ForegroundColor = ConsoleColor.Green;
 				Console.WriteLine("Quantity scaled successfully!");
 				Console.ResetColor();
 			}
