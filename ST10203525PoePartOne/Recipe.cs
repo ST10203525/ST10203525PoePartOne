@@ -136,7 +136,7 @@ namespace ST10203525PoePartOne
 		{
 			try
 			{
-				Console.ForegroundColor = ConsoleColor.DarkYellow;
+				Console.ForegroundColor = ConsoleColor.Yellow;
 				Console.WriteLine("\nRecipe Details:");
 				Console.WriteLine("---------------");
 
