@@ -271,7 +271,7 @@ namespace ST10203525PoePartOne
 				}
 				else
 				{
-					Console.ForegroundColor = ConsoleColor.Magenta;//confirm that you want to clear the recipe
+					Console.ForegroundColor = ConsoleColor.Red;//confirm that you want to clear the recipe
 					Console.WriteLine("Invalid input. Please enter 'yes' or 'no'.");
 					Console.ResetColor();
 				}
