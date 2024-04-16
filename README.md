@@ -13,3 +13,26 @@
 3. Displaying Recipe: Call the `DisplayRecipe()` method to display the entered recipe details.
 4. Scaling Recipe: Call the `ScaleRecipe()` method to scale the recipe quantities or reset to original values.
 5. Clearing Recipe:Call the `ClearRecipe()` method to clear all entered recipe details.
+
+## Example
+
+
+using System;
+
+namespace ST10203525PoePartOne
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            // Create a new Recipe object
+            Recipe recipe = new Recipe();
+
+            // Enter recipe details
+            recipe.EnterRecipeDetails();
+
+            // Display recipe
+            recipe.DisplayRecipe();
+        }
+    }
+}
